@@ -7,16 +7,21 @@
     <title></title>
 </head>
 <body style="height: 519px">
-    <form id="form1" runat="server">
-        Enter number 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <form id="form1" runat="server" style="line-height: normal; text-align: center">
+        <br />
+        <br />
+        <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Addition of two numbers"></asp:Label>
+        <br />
+        <br />
+        <br />
+&nbsp;Enter number 1&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="TextBox1" runat="server" Height="21px" Width="173px"></asp:TextBox>
         <br />
         <br />
-        Enter number 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox2" runat="server" Height="20px" Width="168px"></asp:TextBox>
+        Enter number 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="TextBox2" runat="server" Height="20px" Width="170px" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
         <br />
         <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click1" Text="Click Me!!" />
     </form>
 </body>

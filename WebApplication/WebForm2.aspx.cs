@@ -21,5 +21,10 @@ namespace WebApplication
             int c = a + b;
             Response.Write(c);
         }
+
+        protected void TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

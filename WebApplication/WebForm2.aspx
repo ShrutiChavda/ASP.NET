@@ -8,23 +8,16 @@
 </head>
 <body style="height: 519px">
     <form id="form1" runat="server">
-        <div>
-            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Click Me" />
-        </div>
-        <p>
-            &nbsp;</p>
-        <div style="margin-left: 400px">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <asp:Button ID="Button2" runat="server" Height="27px" Text="Button" Width="92px" />
-        </div>
+        Enter number 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="TextBox1" runat="server" Height="21px" Width="173px"></asp:TextBox>
+        <br />
+        <br />
+        Enter number 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="TextBox2" runat="server" Height="20px" Width="168px"></asp:TextBox>
+        <br />
+        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click1" Text="Click Me!!" />
     </form>
 </body>
 </html>

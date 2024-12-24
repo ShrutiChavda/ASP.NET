@@ -14,9 +14,12 @@ namespace WebApplication
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void Button1_Click1(object sender, EventArgs e)
         {
-            Response.Write("Hello World");
+            int a = Convert.ToInt32(TextBox1.Text);
+            int b = Convert.ToInt32(TextBox2.Text);
+            int c = a + b;
+            Response.Write(c);
         }
     }
 }

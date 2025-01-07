@@ -12,10 +12,9 @@
 
 </head>
 <body>
-   <form id="form1" runat="server">
+   <!--<form id="form1" runat="server">-->
         <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+           
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,7 +49,9 @@
                     </form>
                 </div>
             </nav>
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+ </asp:ContentPlaceHolder>Hiiiii    
         </div>
-    </form>
+   <!-- </form> -->
 </body>
 </html>

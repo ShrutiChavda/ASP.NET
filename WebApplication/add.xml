@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>33.jpg</ImageUrl>
+		<Keyword>technology, c, c#</Keyword>
+		<NavigateUrl>https://www.google.com</NavigateUrl>
+		<AlternateText>c-sharp</AlternateText>
+		<Impression>3</Impression>
+	</Ad>
+	<Ad>
+		<ImageUrl>34.png</ImageUrl>
+		<Keyword>programming, c, java</Keyword>
+		<NavigateUrl>https://lms.rku.ac.in</NavigateUrl>
+		<AlternateText>java</AlternateText>
+		<Impression>5</Impression>
+	</Ad>
+</Advertisements>

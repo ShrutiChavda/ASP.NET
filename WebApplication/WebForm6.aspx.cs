@@ -7,15 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class WebForm6 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-        }
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            Response.Write("Hello World");
+
         }
     }
 }
